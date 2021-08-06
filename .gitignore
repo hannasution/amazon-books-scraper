@@ -1,0 +1,10 @@
+# Ignore everything
+/*
+
+# Not these directories
+!AmazonBook/
+
+# Not these files
+!.gitignore
+!scrapy.cfg
+!README.md
