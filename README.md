@@ -13,7 +13,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Scraping Amazon bestseller books for all category in it using scrapy python. Story: I was very bored, then thought about this project that has not been touched for a long time, so I thought to modify and improve from the old project.
+Scraping Amazon bestseller books for all category in it using scrapy python. Story: I was bored, then thought about this project that has not been touched for a long time, so I thought to modify and improve from the old project.
 
 
 ### Built With
