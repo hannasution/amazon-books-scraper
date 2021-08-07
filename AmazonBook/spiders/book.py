@@ -12,7 +12,7 @@ class BookSpider(scrapy.Spider):
     def parse(self, response):
 
         current_category = response.xpath('//span[@class="zg_selected"]')
-        category = response.request.url.split('/')[-1].split('?')[0]
+        category_id = response.request.url.split('/')[-1].split('?')[0]
         products = response.xpath('//li[@class="zg-item-immersion"]')
 
         for product in products:
@@ -35,7 +35,7 @@ class BookSpider(scrapy.Spider):
                 author=author,
                 type=type,
                 price=0 if price is None else float(price.replace('$', '')),
-                category_id=parse_int(category),
+                category_id=parse_int(category_id),
                 available=available is None
             )
 
