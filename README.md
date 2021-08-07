@@ -13,7 +13,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Scraping Amazon bestseller books using scrapy python. Story: I was very bored, then thought about this project that has not been touched for a long time, so I thought to modify and improve from the old project. the purpose of this project is to hone my scraping skills using python.
+Scraping Amazon bestseller books for all category in it using scrapy python. Story: I was very bored, then thought about this project that has not been touched for a long time, so I thought to modify and improve from the old project. the purpose of this project is to hone my scraping skills using python.
 
 
 ### Built With
