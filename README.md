@@ -51,8 +51,6 @@ if you want to save the result run this command:
 
 For more usage, please refer to the [Scrapy Documentation](https://scrapy.org/doc/)
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
-
 <!-- LICENSE -->
 ## License
 
