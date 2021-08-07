@@ -10,22 +10,6 @@
 *** github_username, repo_name, twitter_handle, email, project_title, project_description
 -->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -73,16 +57,3 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/hannasution/amazon-books-scraper.svg?style=for-the-badge
-[contributors-url]: https://github.com/hannasution/amazon-books-scraper/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/hannasution/amazon-books-scraper.svg?style=for-the-badge
-[forks-url]: https://github.com/hannasution/amazon-books-scraper/network/members
-[stars-shield]: https://img.shields.io/github/stars/hannasution/amazon-books-scraper.svg?style=for-the-badge
-[stars-url]: https://github.com/hannasution/amazon-books-scraper
-[license-shield]: https://img.shields.io/github/license/github_username/amazon-books-scraper.svg?style=for-the-badge
-[license-url]: https://github.com/hannasution/amazon-books-scraper/blob/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/hannasution
