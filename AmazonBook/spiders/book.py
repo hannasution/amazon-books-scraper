@@ -39,14 +39,13 @@ class BookSpider(scrapy.Spider):
                 available=available is None
             )
 
-        if "&pg=" not in response.request.url:
-            sub_category = current_category.xpath('.//parent::li/parent::ul/ul/li/a/@href').extract()
-            for category_url in sub_category:
-                yield scrapy.Request(category_url, callback=self.parse)
-
         next_page = response.css('.a-last a ::attr(href)').extract_first()
         if next_page:
             yield scrapy.Request(response.urljoin(next_page), callback=self.parse)
+        else:
+            sub_category = current_category.xpath('.//parent::li/parent::ul/ul/li/a/@href').extract()
+            for category_url in sub_category:
+                yield scrapy.Request(category_url, callback=self.parse)
 
 
 def parse_int(value):
